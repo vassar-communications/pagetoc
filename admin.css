@@ -1,0 +1,25 @@
+[data-type="core/group"] {
+	border: 1px solid #eee;
+    border-top: 8px solid #eee;
+}
+[data-type="core/group"]:hover {
+	border-color: #0390fc;
+    border-top-color: #0390fc;
+}
+[data-type="core/group"] [data-type="core/group"] {
+    margin: 4px;	
+}
+[data-type="core/group"] [data-type="core/group"]::before {
+    margin: 4px;
+    border: 1px solid #f00 !important;
+}
+
+[data-type="core/group"] [data-type="core/group"] [data-type="core/group"]::before {
+    margin: 8px;
+    border: 1px solid #0f0 !important;
+}
+
+[data-type="core/group"]:before {
+    border: 1px solid #eee;
+}
+
